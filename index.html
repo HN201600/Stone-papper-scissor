@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Rock Paper Sciessor</h1>
+
+   
+
+
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Apki game suru ho chuki hai select anyone from bellow.";
+        }
+        </script>
+        <h2 id="Apnascore">Apne score mujhe bhi dikhana kam se kam 20 baar to khelna hi 😁</h2>
+        <p id="demo">Click here for playing.</p>
+        <button id="HNbutton" type="button" onclick="myFunction()">Khelo Khelo 😚</button>
+        
+
+    
+    <div class="choices">
+       <div class="choice" id="rock">
+      <img src="./images/rock.png">
+</div>
+<div class="choice" id="paper">
+<img src="./images/Paper.png">
+</div>
+<div class="choice" id="sissure">
+<img src="./images/sISSURE.png">
+</div>
+
+    </div>
+
+    <div class="score-board">
+    <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+    </div>
+    <div class="score">
+        <p id="Himanshu-score">0</p>
+        <p id="HN">Himanshu</p>
+    </div>
+    </div>
+    <script src="app.js"></script>
+    
+
+        <h1>Timer: <span id="timer">3</span> seconds</h1>
+    
+        <script>
+            let timeLeft = 3;
+    
+            // Update the timer every second
+            const timerInterval = setInterval(function() {
+                timeLeft--; // Decrease time left by 1
+                document.getElementById('timer').textContent = timeLeft;
+    
+                // If time reaches 0, clear the interval and alert the user
+                if (timeLeft === 0) {
+                    clearInterval(timerInterval);
+                    
+                }
+            }, 1000);
+        </script>
+    </body>
+    </html>
+    
+</body>
+</html>

@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    
+}
+
+
+body {
+    background-image: url("Me\ with\ mask.jpg");
+    background-size: 40%;
+}
+
+h1 {
+    background-color: rgba(245, 51, 51, 0.726);
+    color: antiquewhite;
+    height: 5rem;
+    line-height: 5rem;
+    
+}
+
+.choice {
+    height: 200px;
+    width: 200px;
+    border-color: rgba(61, 59, 59, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    border-color: rgba(46, 45, 45, 0.603);
+    border-style: solid;
+    border-radius: 25%;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 39%);
+    border-radius: 25%;
+}
+
+
+img {
+    height: 150;
+    width: 150;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.score-board {
+    color: bisque;
+    background-color: rgb(43, 226, 217, 25%);
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 400px;
+    gap: 4rem;
+    border-radius: 120px;
+    margin-left: 450px;  
+}
+
+
+#user-score, #Himanshu-score {
+font-size: 4rem;
+color: rgb(231, 163, 37);
+} 
+#user-score {
+    color: black;
+}
+
+#HN {
+    color: rgb(231, 163, 37);
+}
+
+.msg-container {
+    margin-top: 2.30rem;
+}
+#msg {
+    background-color: rgb(223, 200, 200);
+    color: rgb(59, 46, 46);
+    line-height: 2rem;
+    height: 3rem;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;         /* father we can say*/
+    border-radius: 1.50rem;/* boarder shape chokor ho jati hai*/
+    /*text-underline have to do*/
+}
+
+
+#demo {
+    color: beige;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;   
+}
+#Apnascore{
+color: rgb(226, 214, 43);
+background-color: rgb(255, 255, 255, 20%);
+
+}
+
+#HNbutton {
+color: rgb(0, 0, 0);
+font-size: 25px;
+width: 150px;
+border-radius: 190px;
+}

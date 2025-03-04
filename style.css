@@ -20,8 +20,8 @@ h1 {
 }
 
 .choice {
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     border-color: rgba(61, 59, 59, 0.534);
     display: flex;
     justify-content: center;

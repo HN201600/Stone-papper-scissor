@@ -8,7 +8,7 @@
 
 body {
     background-image: url("Me\ with\ mask.jpg");
-    background-size: 40%;
+    background-size: 1200px, 1200px;
 }
 
 h1 {
@@ -67,7 +67,7 @@ img {
     width: 400px;
     gap: 4rem;
     border-radius: 120px;
-    margin-left: 450px;  
+    margin-left: 50px;  
 }
 
 
@@ -110,6 +110,7 @@ color: rgb(231, 163, 37);
 #Apnascore{
 color: rgb(226, 214, 43);
 background-color: rgb(255, 255, 255, 20%);
+margin-top: 120px;
 
 }
 
@@ -118,4 +119,13 @@ color: rgb(0, 0, 0);
 font-size: 25px;
 width: 150px;
 border-radius: 190px;
+margin-top: 60px;
+}
+#HNbutton:hover {
+    cursor: pointer;
+}
+
+
+#Bottom {
+    margin-top: 150px;
 }

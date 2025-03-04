@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding-left: 9px;
+    padding: 9px;
     text-align: center;
     
 }
@@ -84,18 +84,21 @@ color: rgb(231, 163, 37);
 }
 
 .msg-container {
-    margin-top: 2.30rem;
+    margin-top: 5rem;
+    
 }
 #msg {
-    background-color: rgb(223, 200, 200);
+    
+    background-color: rgba(223, 200, 200, 0.911);
     color: rgb(59, 46, 46);
     line-height: 2rem;
     height: 3rem;
     font-size: 2rem;
     display: inline;
-    padding: 1rem;         /* father we can say*/
-    border-radius: 1.50rem;/* boarder shape chokor ho jati hai*/
+            /* father we can say*/
+    ;/* boarder shape chokor ho jati hai*/
     /*text-underline have to do*/
+    border-radius: 120px;
 }
 
 
@@ -126,6 +129,3 @@ margin-top: 60px;
 }
 
 
-#Bottom {
-    margin-top: 150px;
-}

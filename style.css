@@ -8,7 +8,7 @@
 
 body {
     background-image: url("Me\ with\ mask.jpg");
-    background-size: 1200px, 1200px;
+    background-size: 800px, 800px;
 }
 
 h1 {
@@ -63,7 +63,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 2rem;
     width: 400px;
     gap: 4rem;
     border-radius: 120px;

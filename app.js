@@ -16,8 +16,8 @@ const GenerateHimanshuChoice = () => {
 
 const drawGame = () => {
     console.log("game was draw.");
-    msg.innerText = "game Draw but you has not win from HN. Play again.";
-    msg.style.backgroundColor = "white";
+    msg.innerText = "game Draw but you has not win to HN. Play again.";
+    msg.style.backgroundColor = "orange";
 
 
 };
@@ -34,7 +34,7 @@ if(userWin) {
     HimanshuScore++;
     HimanshuScorePara.innerText = HimanshuScore;
     console.log("you lose");
-    msg.innerText = `You lose! HN ${HimanshuChoice}  beaten Your ${userChoice} will you win ever🙄😏`;
+    msg.innerText = `You lose! HN ${HimanshuChoice}  beaten Your ${userChoice} ab party ...🙄😏`;
     msg.style.backgroundColor = "red";
 
 

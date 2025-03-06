@@ -1,5 +1,5 @@
 * {
-    margin: 0%;
+    margin: 0px;
     padding: 0%;
     text-align: center;
     
@@ -8,20 +8,22 @@
 
 body {
     background-image: url("Me\ with\ mask.jpg");
-    background-size: 800px, 800px;
+    background-size: 400px, 200px;
+    
 }
 
 h1 {
-    background-color: rgba(245, 51, 51, 0.726);
+    background-color: #fd9068e8;
     color: antiquewhite;
     height: 5rem;
     line-height: 5rem;
+    border-radius: 15px;
     
 }
 
 .choice {
-    height: 170px;
-    width: 170px;
+    height: 120px;
+    width: 120px;
     border-color: rgba(61, 59, 59, 0.534);
     display: flex;
     justify-content: center;
@@ -40,19 +42,21 @@ h1 {
 
 
 img {
-    height: 150;
-    width: 150;
+    height: 110px;
+    width: 110px;
     object-fit: cover;
     border-radius: 50%;
 
 }
 
 .choices {
+    width: 400px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: 10px;
+    margin-top: 21px;
 }
 
 .score-board {
@@ -65,9 +69,9 @@ img {
     align-items: center;
     font-size: 2rem;
     width: 400px;
-    gap: 4rem;
+    gap: 115px;
     border-radius: 120px;
-      
+    margin-top: 60px;
 }
 
 
@@ -89,12 +93,12 @@ color: rgb(231, 163, 37);
 }
 #msg {
     
-    background-color: rgba(223, 200, 200, 0.911);
-    color: rgb(59, 46, 46);
+    background-color: rgb(242 81 81 / 91%);
+    color: rgb(243 236 72);
     line-height: 2rem;
     height: 3rem;
     font-size: 2rem;
-    display: inline;
+    margin-top: 20px
             /* father we can say*/
     ;/* boarder shape chokor ho jati hai*/
     /*text-underline have to do*/
@@ -103,17 +107,18 @@ color: rgb(231, 163, 37);
 
 
 #demo {
-    color: beige;
-    background-color: blue;
+    font-size: 70px;
+    color: #0dff05;
+    background-color: rgb(58 58 110 / 51%);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;   
+    font-size: 30px;   
 }
 #Apnascore{
 color: rgb(226, 214, 43);
 background-color: rgb(255, 255, 255, 20%);
-margin-top: 120px;
+margin-top: 10px;
 
 }
 
@@ -122,10 +127,16 @@ color: rgb(0, 0, 0);
 font-size: 25px;
 width: 150px;
 border-radius: 190px;
-margin-top: 60px;
+margin-top: 20px;
 }
 #HNbutton:hover {
     cursor: pointer;
 }
 
 
+@media only screen and (max-width: 414px) {
+    *{
+        visibility: collapse;
+        visibility: visible;
+    }
+}
